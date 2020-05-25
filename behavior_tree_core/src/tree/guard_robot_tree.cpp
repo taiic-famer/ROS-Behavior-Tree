@@ -20,6 +20,7 @@ int main(int argc, char **argv)
     {
         int TickPeriod_milliseconds = 200;
 
+        
         BT::ROSCondition* have_enemy = new BT::ROSCondition("have_enemy");
         BT::ROSAction* nav_enemy = new BT::ROSAction("nav_enemy");
         BT::ROSAction* patrol = new BT::ROSAction("patrol");
