@@ -19,7 +19,6 @@ int main(int argc, char **argv)
     try
     {
         int TickPeriod_milliseconds = 200;
-
         
         BT::ROSCondition* have_enemy = new BT::ROSCondition("have_enemy");
         BT::ROSAction* nav_enemy = new BT::ROSAction("nav_enemy");
